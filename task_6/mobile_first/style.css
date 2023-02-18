@@ -1,0 +1,23 @@
+body{
+    background-color: greenyellow;
+}
+@media (min-width: 576px){
+    body{
+        background-color: rgb(165, 199, 115);
+    }
+}
+@media (min-width: 768px){
+    body{
+        background-color: rgb(109, 166, 25);
+    }
+}
+@media (min-width: 992px){
+    body{
+        background-color: rgb(47, 77, 3);
+    }
+}
+@media (min-width: 1200px){
+    body{
+        background-color: rgb(8, 12, 1);
+    }
+}

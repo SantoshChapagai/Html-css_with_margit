@@ -1,0 +1,21 @@
+body{
+    background-color: hwb(240 6% 35%);
+    /* background-image: url(back.jpg); */
+}
+img{
+    width: 200px;
+}
+h1, h2, h3, h4, h5, h6{
+    display: inline;
+    display: block;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 200px;
+    text-decoration: none;
+}
+ol li{
+    list-style-type: lower-greek;
+}

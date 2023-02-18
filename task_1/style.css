@@ -1,0 +1,14 @@
+p{
+    color: pink;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: green;
+}
+/* #question{
+    color: orange;
+} */
+.joke{
+    color: red;
+}

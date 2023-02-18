@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+   background-color: #66BFBF;
+   font-family: 'Roboto', sans-serif;
+   line-height: 1.5rem;
+}
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+#hero_banner{
+    background: url("https://media.istockphoto.com/id/1076181928/fi/valokuva/pyramidij%C3%A4rvi-kanadan-kalliovuorilla-jasperin-kansallispuistossa-alberta-kanada.jpg?s=612x612&w=0&k=20&c=scWV-MdE2QDQfKSNWhT0En6q-5am6fyX-gI23UZ0Rwk=") no-repeat center center/cover ;
+}
+
+nav ul{
+    display: flex;
+    justify-items: center;
+    
+}
+nav ul li{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    padding: 150px;
+    font-size: 2rem;
+   color: honeydew;
+   margin-bottom: 3rem;
+}
+img{
+    width: 25vw;
+    height: 20vw;
+}
+
+#projects{
+    background-color: lightblue;
+    padding: 3rem 0;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90vw;
+    margin: 0 1.5rem;
+   
+}
+
+.conatiner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25vw;
+    background-color: white;
+    border:black 5px solid;
+
+    background-color: rgb(225, 232, 234);
+}
+section h3{
+display: flex;
+justify-content: left;
+margin:0 0 1.5rem 1.5rem;
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* Css syling for about me */
+#about_me{
+    background-color: deepskyblue;
+    padding: 3rem 0;
+}
+.introduction{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 1.5rem;
+    width:90vw;
+}
+.introduction img{
+    padding-left: 10px;
+}
+
+/* css styling for skills */
+#skills{
+    background-color: aquamarine;
+    padding: 3rem 0;
+    
+}
+progress{
+    height: 5vh;
+    width: 15vw;
+   background-color: #f70808;
+   color: blue;
+   margin-top: 10px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.5rem;
+}
+.skill_category{
+    display: flex;
+    flex-direction: column;
+    border: black 3px solid;
+    padding: 10px;
+}
+
+
+
+  /* Css styling for the footers elemts start from here  */
+h3{
+    display: flex;
+   justify-content: center;
+}
+#contact{
+   background-color: cadetblue;
+    margin: 30px 50px 30px 10px;
+    padding: 20px;
+    color: white;
+}
+.message{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+form input, textarea{
+    margin-left: 2rem;
+    border: none;
+    border-radius:0.2rem;
+    height: 1.5rem;
+    width: 12rem;
+}
+textarea{
+    width:12rem;
+    height: 4rem; 
+}
+#submit{
+    width: 8rem;
+    height: 1.8rem;
+    background-color: orange;
+    color: white;
+}
+    .copyright{
+        color:white;
+       display: flex;
+       justify-content: center;
+      
+      }
+      /* ipad responsive */
+      /* @media(max-width:1200px) {
+    body{
+        background-color: rgb(49, 245, 238);
+    } 
+}
+
+@media(max-width:992px) {
+    body{
+        background-color: rgb(96, 166, 246);
+    } 
+}
+
+@media(max-width:768px) {
+    body{
+        background-color: rgb(1, 255, 251);
+    } 
+}
+@media(max-width:600px) {
+    body{
+        background-color: rgb(44, 115, 156);
+    } 
+    header{
+   
+    display: flex;
+    align-items: center;
+}
+h1{
+font-size: 20px;
+}img{
+    height: 6vh;
+    width: 15vw
+}
+#projects, #about_me, #skills, #contact{
+   width:100vw;
+}
+.pictures{
+    height: 15vw;
+}
+} */

@@ -1,63 +1,76 @@
-body{
+/* css practice */
+body {
     background-color: blueviolet;
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
+
+header {
     background-color: brown;
 }
-section{
+
+section {
     background-image: url(back.jpg) no-repeat fixed center center/cover;
     height: 500px;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     background-color: tomato;
     padding: 15px;
     margin: 8px;
 
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
-.container{
+
+.container {
     width: 200px;
     background-color: hsl(254, 89%, 37%);
     border: 2px solid blue;
     border-radius: 10px;
 }
-img{
+
+img {
     width: 100%;
     border-radius: 50%;
 }
-.box{
+
+.box {
     height: 150px;
     width: 150px;
     background-color: blue;
     display: inline-block;
-    margin:10px;
+    margin: 10px;
 }
-.box1{
+
+.box1 {
     background-color: beige;
     border: 10px dashed black;
 }
-.box2{
+
+.box2 {
     background-color: palegoldenrod;
     border: 5px solid red;
 }
-.box3{
+
+.box3 {
     background-color: red;
     border: 10px dotted yellowgreen;
 }
-.box4{
+
+.box4 {
     background-color: black;
     border-top: 5px solid red;
     border-right: 5px solid yellow;
     border-bottom: 5px solid green;
     border-left: 5px solid purple;
-    
+
 }
-.box5{
+
+.box5 {
     background-color: palegreen;
     border: 10px thin silver;
 }

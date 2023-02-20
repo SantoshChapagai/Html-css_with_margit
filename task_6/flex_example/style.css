@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
 
-body{
+body {
     background-color: aqua;
     font-family: 'Segoe UI', sans-serif;
 }
 
-header{
+/* flex practice */
+
+header {
     background-color: bisque;
     color: white;
     display: flex;
@@ -17,40 +19,46 @@ header{
     padding: 2rem;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
-    
+
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
-    
+
 }
-#hero_banner{
+
+#hero_banner {
     height: 75vh;
-    background : url('https://images.unsplash.com/photo-1525253013412-55c1a69a5738?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHVwcGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60') no-repeat center center/cover ;
+    background: url('https://images.unsplash.com/photo-1525253013412-55c1a69a5738?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHVwcGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60') no-repeat center center/cover;
     display: flex;
     color: white;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-h2{
+
+h2 {
     font-size: 5rem;
 }
-#left{
-  background-color: rgb(68, 129, 235);
-  width: 25vw;
-  display: flex;
-  flex-direction: column;
+
+#left {
+    background-color: rgb(68, 129, 235);
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
 }
-#right{
+
+#right {
     background-color: brown;
     width: 75vw;
     display: flex;
     flex-wrap: wrap;
 }
 
-.box{
+.box {
     height: 60px;
     width: 60px;
     background-color: white;
@@ -60,23 +68,30 @@ h2{
     justify-content: center;
     align-items: center;
 }
-.container{
+
+.container {
     display: flex;
 }
-@media(max-width:576px){
-    header{
-        padding: 1rem; 
+
+@media(max-width:576px) {
+    header {
+        padding: 1rem;
     }
-h2{
-    font-size: 3rem;
-}
-#left, #right{
-    width: 100vw;
-}
-#left{
-    flex-direction: row;
-}
-.container{
-    display: flex;
-}
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    #left,
+    #right {
+        width: 100vw;
+    }
+
+    #left {
+        flex-direction: row;
+    }
+
+    .container {
+        display: flex;
+    }
 }

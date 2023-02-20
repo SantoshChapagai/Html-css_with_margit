@@ -1,29 +1,33 @@
-body{
+body {
     background-color: cornsilk;
 }
-h1{
+
+h1 {
     color: midnightblue;
 }
 
+/* first making suitable for desktop and then make mobile responsivenss */
+
 @media(max-width:1200px) {
-    body{
+    body {
         background-color: rgb(243, 174, 14);
-    } 
+    }
 }
 
 @media(max-width:992px) {
-    body{
+    body {
         background-color: rgb(211, 172, 92);
-    } 
+    }
 }
 
 @media(max-width:768px) {
-    body{
+    body {
         background-color: rgb(217, 156, 33);
-    } 
+    }
 }
+
 @media(max-width:576px) {
-    body{
+    body {
         background-color: rgb(242, 208, 142);
-    } 
+    }
 }

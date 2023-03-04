@@ -1,3 +1,8 @@
+:root {
+    --bg-color: rgb(213, 228, 235);
+    --font: 'Gill Sans', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +10,8 @@
 }
 
 body {
-    background-color: bisque;
-    font-family: 'Gill Sans', sans-serif;
-    background-color: rgb(213, 228, 235);
+    font-family: var(--font);
+    background-color: var(--bg-color);
 }
 
 /* header section styling */
@@ -16,6 +20,11 @@ header {
     padding: 2rem;
     position: sticky;
     top: 0;
+}
+
+#logo {
+    height: 2rem;
+    width: 2rem;
 }
 
 nav ul {
@@ -75,6 +84,11 @@ img {
 .work_category {
     background-color: azure;
     padding: 1.5rem;
+    box-shadow: 0 0 10px #6288b2;
+}
+
+.work_category:hover {
+    filter: blur(1px);
 }
 
 /* styling for about me section */
@@ -105,6 +119,7 @@ img {
     flex-direction: column;
     background-color: rgb(168, 231, 219);
     padding: 1rem;
+    box-shadow: 0 0 5px dodgerblue;
 
 }
 

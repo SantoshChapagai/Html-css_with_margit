@@ -9,6 +9,20 @@ body {
   margin: 1rem;
 }
 
+nav ul li {
+  display: flex;
+  justify-content: end;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 h1 {
   text-align: center;
   margin: 2rem;
@@ -42,6 +56,7 @@ h1 {
 
 .b {
   grid-area: b;
+  filter: brightness(200%);
 }
 
 .c {
@@ -50,14 +65,17 @@ h1 {
 
 .d {
   grid-area: d;
+  filter: contrast(200%)
 }
 
 .e {
   grid-area: e;
+  filter: saturate(30%)
 }
 
 .f {
   grid-area: f;
+  filter: grayscale(0.5);
 }
 
 .g {
